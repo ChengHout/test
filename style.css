@@ -1,0 +1,102 @@
+@import url('https://fonts.googlepis.com/css?family=Poppins:400,500,700');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.main-footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer{
+    height: 60px;
+    background-color: #202027;
+    font-weight: bold;
+}
+
+.social-link img{
+    width: 1em;
+    margin-right: .25rem;
+}
+
+.full-height-grow{
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.25em;
+    text-decoration: none;
+    color: inherit;
+}
+
+.brand-logo-name{
+    margin-left: .9rem;
+}
+
+.main-nav ul, .footer-nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav a, .footer-nav a{
+    text-decoration: none;
+    margin: 1rem;
+    color: inherit;
+}
+
+.main-nav a:hover, .footer-nav a:hover{
+    color: #adadad;
+}
+
+.main-header, .main-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-header{
+    height: 10vh;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 3em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.subtitle{
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    color: white;
+    background-color: #1762a7;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: .75rem 1.5rem;
+    font-size: .9rem;
+}
